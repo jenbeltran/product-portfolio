@@ -7,7 +7,7 @@ const TitleSection = styled.section`
 	text-align: center;
 	margin: auto;
 	padding: 1rem;
-	background-color: ${({ pageName }) => (pageName !== 'projects' ? '' : '#f3f3f3')};
+	background-color: ${({ pageName }) => (pageName !== 'techTeahouse' ? '' : '#f3f3f3')};
 `;
 
 const Headline = styled.p`
