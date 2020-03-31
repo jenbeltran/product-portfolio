@@ -11,6 +11,9 @@ import AboutMe from '../components/AboutMe';
 //Section Titles
 import SectionTitle from '../components/SectionTitle';
 
+//Tech Teahouse Problem
+import TechTeahouse from '../components/TechTeahouse';
+
 //Footer
 import Footer from '../components/Footer';
 
@@ -20,6 +23,7 @@ const IndexPage = () => (
 		<Nav />
 		<AboutMe />
 		<SectionTitle pageName="techTeahouse" />
+		<TechTeahouse />
 		<SectionTitle pageName="projects" />
 
 		<Footer />
