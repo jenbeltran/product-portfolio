@@ -1,25 +1,21 @@
 import styled from 'styled-components';
 import { colors } from '../../theme/colors';
 
-const { indigo } = colors;
+const { grey, indigo } = colors;
 
 const TitleSection = styled.section`
 	text-align: center;
 	margin: auto;
 	padding: 1rem;
-	background-color: ${({ pageName }) => (pageName !== 'techTeahouse' ? '' : '#f3f3f3')};
+	background-color: ${({ pageName }) => (pageName !== 'my-story' ? '' : `${grey}`)};
 `;
 
 const Headline = styled.p`
-	font-family: lato;
-	font-size: 2rem;
-	font-weight: 500;
+	font-size: 2.3rem;
+	font-weight: 700;
 	color: ${indigo};
 `;
 
-const Description = styled.p`
-	font-family: lato;
-	font-size: 1.3rem;
-`;
+const Description = styled.p`font-size: 1.3rem;`;
 
 export { TitleSection, Headline, Description };

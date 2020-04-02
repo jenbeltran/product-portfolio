@@ -5,6 +5,8 @@ import { colors } from './colors';
 const { desktop } = breakpoints;
 const { pink, indigo, white } = colors;
 
+export const PageWrapper = styled.div`font-family: lato !important;`;
+
 export const SectionWrapper = styled.div`
 	@media (min-width: ${desktop}px) {
 		position: relative;
@@ -27,10 +29,24 @@ export const ParagraphDescription = styled.p`
 	line-height: 30px;
 `;
 
-export const Anchor = styled.a`text-decoration: none;`;
+export const Anchor = styled.a`
+	text-decoration: inherit;
+	color: inherit;
+	&:hover {
+		text-decoration: inherit;
+		color: inherit;
+	}
+`;
 
 export const Button = styled.button`
 	background: ${white};
 	color: ${pink};
 	border: 2px solid ${pink};
+	border-radius: 4px;
+	&:hover {
+		background: ${pink};
+		color: ${white};
+		border: 2px solid ${pink};
+		border-radius: 4px;
+	}
 `;

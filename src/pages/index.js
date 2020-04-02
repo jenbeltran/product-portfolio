@@ -1,4 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { PageWrapper } from '../theme/typography';
 
 import SEO from '../components/seo';
 
@@ -14,20 +17,25 @@ import SectionTitle from '../components/SectionTitle';
 //Tech Teahouse Problem
 import TechTeahouse from '../components/TechTeahouse';
 
+//Projects
+import Projects from '../components/Projects';
+
 //Footer
 import Footer from '../components/Footer';
 
 const IndexPage = () => (
-	<div>
+	<PageWrapper>
 		<SEO title="About Me" />
+
 		<Nav />
 		<AboutMe />
-		<SectionTitle pageName="techTeahouse" />
+		<SectionTitle pageName="my-story" />
 		<TechTeahouse />
 		<SectionTitle pageName="projects" />
+		<Projects />
 
 		<Footer />
-	</div>
+	</PageWrapper>
 );
 
 export default IndexPage;

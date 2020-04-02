@@ -16,7 +16,7 @@ export const StyleNav = styled.section`
 
 	@media screen and (min-width: ${laptop}px) {
 		display: block;
-
+		padding-top: 1rem;
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
@@ -177,33 +177,45 @@ export const Anchor = styled.a`text-decoration: none;`;
 
 export const Headline = styled.p`
 	@media (min-width: ${laptop}px) {
-		font-family: lato;
 		font-size: 2rem;
 		font-weight: 800;
 		color: ${pink};
 		padding-left: 3rem;
+		&:hover {
+			text-decoration: inherit;
+			color: ${pink};
+		}
 	}
 	@media (max-width: ${tablet}px) {
-		font-family: lato;
 		font-size: 2rem;
 		font-weight: 800;
 		color: ${pink};
+		&:hover {
+			text-decoration: inherit;
+			color: ${pink};
+		}
 	}
 `;
 
 export const Tab = styled.p`
 	@media (min-width: ${laptop}px) {
-		font-family: lato;
 		font-size: 1.2rem;
 		padding: 0rem 1rem 0rem 1rem;
 		color: ${black};
+		&:hover {
+			text-decoration: inherit;
+			color: ${pink};
+		}
 	}
 	@media (max-width: ${tablet}px) {
-		font-family: lato;
 		font-size: 1.6rem;
 		font-weight: 500;
 		color: ${indigo};
 		margin: 0;
 		padding: 0;
+		&:hover {
+			text-decoration: inherit;
+			color: ${pink};
+		}
 	}
 `;
