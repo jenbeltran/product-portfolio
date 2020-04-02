@@ -38,23 +38,18 @@ const Wrapper = styled.div`
 
 const Headline = styled.p`
 	@media (min-width: ${laptop}px) {
-		font-family: lato;
 		font-size: 2rem;
 		font-weight: 500;
 	}
 
 	@media (max-width: ${tablet}px) {
-		font-family: lato;
 		font-size: 2rem;
 		font-weight: 500;
 		color: ${pink};
 	}
 `;
 
-const Description = styled.p`
-	font-family: lato;
-	font-size: 1.3rem;
-`;
+const Description = styled.p`font-size: 1.3rem;`;
 
 const AboutMePhoto = styled.img`
 	@media (min-width: ${largeDesktop}px) {

@@ -1,12 +1,14 @@
 import styled from 'styled-components';
+import { colors } from '../../theme/colors';
+
+const { grey } = colors;
 
 const StorySection = styled.section`
 	padding-bottom: 30px;
-	background: #f3f3f3
-	font-family: lato;
+	background-color: ${grey};
 `;
 
-const Storyh1 = styled.h1`margin: 0;`;
+const Storyh3 = styled.h3`margin: 0;`;
 
 const Storydiv = styled.div`
 	@media (min-width: 770px) {
@@ -25,9 +27,9 @@ const Storydiv = styled.div`
 `;
 
 const Storyp = styled.p`
-line-height: 30px;
-color: #333333
-text-align: center;
-padding: 0 15% 2% 15%`;
+	text-align: center;
+	font-size: 1.1rem;
+	padding: 1% 15% 2% 15%;
+`;
 
-export { StorySection, Storyh1, Storydiv, Storyp };
+export { StorySection, Storyh3, Storydiv, Storyp };

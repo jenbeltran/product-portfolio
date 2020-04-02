@@ -11,7 +11,7 @@ const FooterSection = styled.section`
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0rem 3rem 1rem 3rem;
+		padding: 1rem 3rem 1rem 3rem;
 		background-color: ${pink};
 	}
 	@media (max-width: ${tablet}px) {
@@ -26,21 +26,16 @@ const FooterSection = styled.section`
 
 const Headline = styled.p`
 	@media (min-width: ${laptop}px) {
-		font-family: lato;
 		font-size: 1.3rem;
 		font-weight: 500;
 	}
 	@media (max-width: ${tablet}px) {
-		font-family: lato;
 		font-size: 1.5rem;
 		font-weight: 500;
 	}
 `;
 
-const ContactInfo = styled.p`
-	font-family: lato;
-	font-size: 1rem;
-`;
+const ContactInfo = styled.p`font-size: 1rem;`;
 
 const SocialIconList = styled.div`
 	@media (min-width: ${laptop}px) {
@@ -50,8 +45,8 @@ const SocialIconList = styled.div`
 `;
 
 const SocialIcon = styled.img`
-	height: 35px;
-	width: 35px;
+	height: 65px;
+	width: 65px;
 	padding: 1rem;
 `;
 

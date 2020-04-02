@@ -24,7 +24,7 @@ const Nav = () => {
 
 			<StyleNav id="#nav">
 				<StyledNavBrand id="icon">
-					<AnchorLink to="/#navbar" className="stripped" stripHash>
+					<AnchorLink to="/">
 						<Headline>Jen Beltran</Headline>
 					</AnchorLink>
 				</StyledNavBrand>
@@ -32,18 +32,17 @@ const Nav = () => {
 				<NavElement>
 					<StyleNavLinks>
 						<NavListItem>
-							<AnchorLink to="/#projects" className="stripped" stripHash>
+							<AnchorLink to="/#my-story">
+								<Tab>My Story</Tab>
+							</AnchorLink>
+						</NavListItem>
+						<NavListItem>
+							<AnchorLink to="/#projects">
 								<Tab>Projects</Tab>
 							</AnchorLink>
 						</NavListItem>
-
 						<NavListItem>
-							<AnchorLink to="/#hobbies" className="stripped" stripHash>
-								<Tab>Hobbies</Tab>
-							</AnchorLink>
-						</NavListItem>
-						<NavListItem>
-							<AnchorLink to="/#contact" className="stripped" stripHash>
+							<AnchorLink to="/#contact">
 								<Tab>Contact Me</Tab>
 							</AnchorLink>
 						</NavListItem>
