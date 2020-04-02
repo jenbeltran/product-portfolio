@@ -50,10 +50,12 @@ const ProjectData = [
 		alt              : 'Photo of Tech Teahouse website',
 		headline         : 'Tech Teahouse Website - January 2020',
 		details          : 'Worked with a team of designers and developers to create and deploy the TTH website.',
-		goal             : 'I’m passionate about bringing ideas to life and exploring ways of making things better.',
+		goal             :
+			'Build a website to raise awareness and for potential sponsors to learn more about our community.',
 		action           :
-			'I have a Full Stack Web Development certificate, a Financial Planning post-grad and a Commerce degree - all from York University.',
-		measureOfSuccess : 'I’m an excellent planner and love meeting new people!'
+			"I've had numerous meetings with various parties to implement this project. First, I've worked with the other co-founders to confirm our goals for the website. After our conclusion, we discussed with UX designers to come up with a simple design. The developers who coded the site had recently graduated from coding bootcamps (like myself), so I took that into consideration with the design team. Shortly after the design was completed, I worked with the developers to code and deploy the website. Based on a developer's suggestion, the website was built using GatsbyJS and Styled Components. I deployed the site using AWS S3 Bucket and Cloudfront.",
+		measureOfSuccess :
+			"The website was deployed within 6 weeks. As much as this is a considered a long time for a simple static website, all UX designers and developers were volunteers, thus we had accomodated meetings around everyone's schedules. The Christmas and New Year holidays interfered with our schedules as well. This project is on-going with all the updates I want to make on the site, therefore I have created a Monday board (which is our Jira board) for any tickets going forward. Since the website's first deployment, we have added an option to sign up for our Slack community, and an events calendar where anyone can see all the events that our members are attending."
 	},
 	{
 		pageName         : 'project5',
@@ -62,10 +64,12 @@ const ProjectData = [
 		headline         : 'Navigating Networking Event - February 2020',
 		details          :
 			'Co-ordinated a Women in Tech event that focused on the topic of networking and over 80 women participated in this event.',
-		goal             : 'I’m passionate about bringing ideas to life and exploring ways of making things better.',
+		goal             :
+			'Host a Women in Tech event where guests have the opportunity to be mentored by a panelist and practice what they learned.',
 		action           :
-			'I have a Full Stack Web Development certificate, a Financial Planning post-grad and a Commerce degree - all from York University.',
-		measureOfSuccess : 'I’m an excellent planner and love meeting new people!'
+			'My co-founders and I recruited panelists, and decided on a workshop activity. The topic of this event was networking in social situations. We recruited a panel of diverse tech and ethnic backgrounds, provided them with a list of questions and held a conference call for them to meet ahead of time to dicuss any concerns. The workshop activity was an elevator pitch where guests are divided into 7 tables that was moderated by one of the panelists. TTH was championed by a previous panelist to have my event proposal reviewed and accepted at Shopify. I have also reached out to my network which lead to TWG sponsoring this event as well. Furthermore, I completed my SmartServe and acted as the bartender throughout the event.',
+		measureOfSuccess :
+			'Shopify sponsored the venue and catering, and TWG sponsored the drink refreshments. Tickets were sold out in one day, and we eventually received recognition to host an event for Toronto Blockchain Week 2020. Unfortunately, TBW2020 was cancelled due to CORVID-19.'
 	},
 	{
 		pageName         : 'project6',
@@ -73,10 +77,11 @@ const ProjectData = [
 		alt              : 'Photo of Tech Teahouse Twitter profile',
 		headline         : 'Tech Teahouse Social Media - March 2020',
 		details          : 'Managed a team to drive digital engagement among TTH social platforms.',
-		goal             : 'I’m passionate about bringing ideas to life and exploring ways of making things better.',
+		goal             : 'Grow our social platforms and maintain the conversation online through digital engagement.',
 		action           :
-			'I have a Full Stack Web Development certificate, a Financial Planning post-grad and a Commerce degree - all from York University.',
-		measureOfSuccess : 'I’m an excellent planner and love meeting new people!'
+			'I researched and attended numerous digital marketing webinars and reached out to everyone in my network for advice and insight. After all the research, I recruited members to help create content for our social platforms and planned all content on Monday, which is our social content calendar. Hootsuite is filled with pre-programmed content until July, in which we will analyze the data to see which type of content our users want to see.',
+		measureOfSuccess :
+			'This project will remain on-going and I will be constantly iterating based on our social analytics. However, TTH has gained 20 new followers on each of our platforms in the first week. Our starting numbers before this project are: Linkedin - 367 followers, Instagram - 87 followers, Twitter - 114 followers.'
 	}
 ];
 

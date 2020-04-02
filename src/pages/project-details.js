@@ -25,6 +25,7 @@ const DetailsPage = () => (
 		<SectionTitle pageName="projectDetails" />
 		<ProjectDetails
 			pageName={ProjectData[0].pageName}
+			photo={ProjectData[0].photo}
 			alt={ProjectData[0].alt}
 			headline={ProjectData[0].headline}
 			goal={ProjectData[0].goal}
@@ -33,6 +34,7 @@ const DetailsPage = () => (
 		/>
 		<ProjectDetails
 			pageName={ProjectData[1].pageName}
+			photo={ProjectData[1].photo}
 			alt={ProjectData[1].alt}
 			headline={ProjectData[1].headline}
 			goal={ProjectData[1].goal}
@@ -41,6 +43,7 @@ const DetailsPage = () => (
 		/>
 		<ProjectDetails
 			pageName={ProjectData[2].pageName}
+			photo={ProjectData[2].photo}
 			alt={ProjectData[2].alt}
 			headline={ProjectData[2].headline}
 			goal={ProjectData[2].goal}
@@ -49,6 +52,7 @@ const DetailsPage = () => (
 		/>
 		<ProjectDetails
 			pageName={ProjectData[3].pageName}
+			photo={ProjectData[3].photo}
 			alt={ProjectData[3].alt}
 			headline={ProjectData[3].headline}
 			goal={ProjectData[3].goal}
@@ -57,6 +61,7 @@ const DetailsPage = () => (
 		/>
 		<ProjectDetails
 			pageName={ProjectData[4].pageName}
+			photo={ProjectData[4].photo}
 			alt={ProjectData[4].alt}
 			headline={ProjectData[4].headline}
 			goal={ProjectData[4].goal}
@@ -65,6 +70,7 @@ const DetailsPage = () => (
 		/>
 		<ProjectDetails
 			pageName={ProjectData[5].pageName}
+			photo={ProjectData[5].photo}
 			alt={ProjectData[5].alt}
 			headline={ProjectData[5].headline}
 			goal={ProjectData[5].goal}
