@@ -3,7 +3,7 @@ import ProjectData from './data';
 import { Container, Card, CardImg, CardText, CardDeck, CardBody } from 'reactstrap';
 import { CardRow, CardTitle } from './css';
 import { Button } from '../../theme/typography';
-import { AnchorLink } from 'gatsby-plugin-anchor-links';
+import { Link } from 'gatsby';
 
 const Projects = (props) => {
 	return (
@@ -15,9 +15,9 @@ const Projects = (props) => {
 						<CardBody>
 							<CardTitle>{ProjectData[0].headline}</CardTitle>
 							<CardText>{ProjectData[0].details}</CardText>
-							<AnchorLink to="/project-details#project1">
+							<Link to={`/project-details/#${ProjectData[0].pageName}`}>
 								<Button>See More</Button>
-							</AnchorLink>
+							</Link>
 						</CardBody>
 					</Card>
 					<Card>
@@ -25,9 +25,9 @@ const Projects = (props) => {
 						<CardBody>
 							<CardTitle>{ProjectData[1].headline}</CardTitle>
 							<CardText>{ProjectData[1].details}</CardText>
-							<AnchorLink to="/project-details#project2">
+							<Link to={`/project-details/#${ProjectData[1].pageName}`}>
 								<Button>See More</Button>
-							</AnchorLink>
+							</Link>
 						</CardBody>
 					</Card>
 					<Card>
@@ -35,9 +35,9 @@ const Projects = (props) => {
 						<CardBody>
 							<CardTitle>{ProjectData[2].headline}</CardTitle>
 							<CardText>{ProjectData[2].details}</CardText>
-							<AnchorLink to="/project-details#project3">
+							<Link to={`/project-details/#${ProjectData[2].pageName}`}>
 								<Button>See More</Button>
-							</AnchorLink>
+							</Link>
 						</CardBody>
 					</Card>
 				</CardDeck>
@@ -49,9 +49,9 @@ const Projects = (props) => {
 						<CardBody>
 							<CardTitle>{ProjectData[3].headline}</CardTitle>
 							<CardText>{ProjectData[3].details}</CardText>
-							<AnchorLink to="/project-details#project4">
+							<Link to={`/project-details/#${ProjectData[3].pageName}`}>
 								<Button>See More</Button>
-							</AnchorLink>
+							</Link>
 						</CardBody>
 					</Card>
 					<Card>
@@ -59,9 +59,9 @@ const Projects = (props) => {
 						<CardBody>
 							<CardTitle>{ProjectData[4].headline}</CardTitle>
 							<CardText>{ProjectData[4].details}</CardText>
-							<AnchorLink to="/project-details#project5">
+							<Link to={`/project-details/#${ProjectData[4].pageName}`}>
 								<Button>See More</Button>
-							</AnchorLink>
+							</Link>
 						</CardBody>
 					</Card>
 					<Card>
@@ -69,9 +69,9 @@ const Projects = (props) => {
 						<CardBody>
 							<CardTitle>{ProjectData[5].headline}</CardTitle>
 							<CardText>{ProjectData[5].details}</CardText>
-							<AnchorLink to="/project-details#project6">
+							<Link to={`/project-details/#${ProjectData[5].pageName}`}>
 								<Button>See More</Button>
-							</AnchorLink>
+							</Link>
 						</CardBody>
 					</Card>
 				</CardDeck>

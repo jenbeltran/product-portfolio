@@ -1,5 +1,5 @@
 import React from 'react';
-import { AnchorLink } from 'gatsby-plugin-anchor-links';
+import { Link } from 'gatsby';
 
 import {
 	StyleNav,
@@ -24,27 +24,27 @@ const Nav = () => {
 
 			<StyleNav id="#nav">
 				<StyledNavBrand id="icon">
-					<AnchorLink to="/">
+					<Link to="/" aria-label="Click to navigate to homepage">
 						<Headline>Jen Beltran</Headline>
-					</AnchorLink>
+					</Link>
 				</StyledNavBrand>
 
 				<NavElement>
 					<StyleNavLinks>
 						<NavListItem>
-							<AnchorLink to="/#my-story">
+							<Link to="#my-story">
 								<Tab>My Story</Tab>
-							</AnchorLink>
+							</Link>
 						</NavListItem>
 						<NavListItem>
-							<AnchorLink to="/#projects">
+							<Link to="#projects">
 								<Tab>Projects</Tab>
-							</AnchorLink>
+							</Link>
 						</NavListItem>
 						<NavListItem>
-							<AnchorLink to="/#contact">
+							<Link to="#contact">
 								<Tab>Contact Me</Tab>
-							</AnchorLink>
+							</Link>
 						</NavListItem>
 					</StyleNavLinks>
 				</NavElement>
