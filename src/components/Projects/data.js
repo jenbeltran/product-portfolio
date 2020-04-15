@@ -90,7 +90,7 @@ export default ProjectData;
 const ProjectSubtitles = {
 	subtitleOne   : 'Project Goal',
 	subtitleTwo   : 'My Process',
-	subtitleThree : 'Measure of Success'
+	subtitleThree : 'Results'
 };
 
 export { ProjectSubtitles };
