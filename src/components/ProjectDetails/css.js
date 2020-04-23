@@ -4,7 +4,7 @@ import { colors } from '../../theme/colors';
 
 const { tablet, laptop } = breakpoints;
 
-const { indigo } = colors;
+const { indigo, black } = colors;
 
 const CardSection = styled.section`
 @media (min-width: ${laptop}px) {
@@ -14,11 +14,13 @@ const CardSection = styled.section`
 	background-image: ${({ photo }) => `url('${photo}')`};
 	background-position: center center;
 	background-size: cover;
+	color: ${black};
 }
 
 @media (max-width: ${tablet}px) {
 	text-align: center
 	margin: auto;
+	color: ${black};
 }
 	
 
