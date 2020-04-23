@@ -1,5 +1,7 @@
 import React from 'react';
 import { CardSection, Wrapper, CardImg, Headline, Subtitle } from './css';
+import { Link } from 'gatsby';
+import { Button } from '../../theme/typography';
 import Project from '../Projects/data';
 import { ProjectSubtitles } from '../Projects/data';
 
@@ -22,6 +24,9 @@ const CardImage = (props) => {
 				<p>{action}</p>
 				<Subtitle>{subtitleThree}</Subtitle>
 				<p>{measureOfSuccess}</p>
+				<Link to={`/`}>
+					<Button>Return to Home Page</Button>
+				</Link>
 			</Wrapper>
 		</CardSection>
 	);

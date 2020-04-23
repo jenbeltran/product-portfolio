@@ -77,6 +77,15 @@ const DetailsPage = () => (
 			action={ProjectData[5].action}
 			measureOfSuccess={ProjectData[5].measureOfSuccess}
 		/>
+		<ProjectDetails
+			pageName={ProjectData[6].pageName}
+			photo={ProjectData[6].photo}
+			alt={ProjectData[6].alt}
+			headline={ProjectData[6].headline}
+			goal={ProjectData[6].goal}
+			action={ProjectData[6].action}
+			measureOfSuccess={ProjectData[6].measureOfSuccess}
+		/>
 		<Footer />
 	</PageWrapper>
 );

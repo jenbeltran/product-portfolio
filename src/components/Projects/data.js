@@ -4,6 +4,7 @@ import NegotiationEvent from '../../images/panel.jpg';
 import NetworkingEvent from '../../images/networking-event.jpg';
 import TTHWebsite from '../../images/tth-website.png';
 import iphone from '../../images/iphone.png';
+import DesignChallenge from '../../images/design-challenge.png';
 
 const ProjectData = [
 	{
@@ -82,6 +83,19 @@ const ProjectData = [
 			'I researched and attended numerous digital marketing webinars and reached out to everyone in my network for advice and insight. After all the research, I recruited members to help create content for our social platforms and planned all content on Monday, which is our social content calendar. Hootsuite is filled with pre-programmed content until July, in which we will analyze the data to see which type of content our users want to see.',
 		measureOfSuccess :
 			'This project will remain on-going and I will be constantly iterating based on our social analytics. However, TTH has gained 20 new followers on each of our platforms in the first week. Our starting numbers before this project are: Linkedin - 367 followers, Instagram - 87 followers, Twitter - 114 followers.'
+	},
+	{
+		pageName         : 'project7',
+		photo            : DesignChallenge,
+		alt              : 'Poster of UX Design Challenge',
+		headline         : 'UX Design Challenge - April 2020',
+		details          : 'Hosted a UX design challenge for job seeking junior UX designers.',
+		goal             :
+			'With COVID19 and a significant number of people working on their portfolios and looking for jobs, I wanted to provide an event where attendees are given the chance to work on an actual company design challenge as they were building their portfolios.',
+		action           :
+			'I reached out to numerous companies in my network and TMX provided their internal UX design challenge for our attendees.  In exchange for providing their internal challenge, I created a waiver for designers that allowed TMX to use any ideas provided if they were interested in any of the submissions. For the prize, I have reached out UXR Collective to and received a free UXR Anywhere Conference ticket (worth $700 USD) to provide to the winner of this challenge. One of my co-founders reached out to her network to have a judge from Bridge School to provide feedback for all the submissions.',
+		measureOfSuccess :
+			'Since we only had one judge, we limited tickets to this event to 25 people.  As a result, of the 25 people, we received 11 submissions and excellent feedback to host another design challenge.'
 	}
 ];
 

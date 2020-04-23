@@ -64,12 +64,26 @@ const Projects = (props) => {
 							</Link>
 						</CardBody>
 					</Card>
+				</CardDeck>
+			</CardRow>
+			<CardRow>
+				<CardDeck>
 					<Card>
 						<CardImg top width="100%" height="50%" src={ProjectData[5].photo} alt={ProjectData[5].alt} />
 						<CardBody>
 							<CardTitle>{ProjectData[5].headline}</CardTitle>
 							<CardText>{ProjectData[5].details}</CardText>
 							<Link to={`/project-details/#${ProjectData[5].pageName}`}>
+								<Button>See More</Button>
+							</Link>
+						</CardBody>
+					</Card>
+					<Card>
+						<CardImg top width="100%" height="50%" src={ProjectData[6].photo} alt={ProjectData[6].alt} />
+						<CardBody>
+							<CardTitle>{ProjectData[6].headline}</CardTitle>
+							<CardText>{ProjectData[6].details}</CardText>
+							<Link to={`/project-details/#${ProjectData[6].pageName}`}>
 								<Button>See More</Button>
 							</Link>
 						</CardBody>
