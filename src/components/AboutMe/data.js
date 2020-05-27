@@ -4,7 +4,8 @@ const AboutMeData = {
 	photo      : AboutMePhoto,
 	alt        : "Jen's headshot",
 	headline   : 'Hi, I’m Jen!',
-	pointOne   : 'I’m passionate about bringing ideas to life and exploring ways of making things better.',
+	pointOne   :
+		'I plan on using my banking experience and coding knowledge to transition into a digital banking role.',
 	pointTwo   :
 		'I have a Full Stack Web Development certificate, a Financial Planning post-grad and a Commerce degree - all from York University.',
 	pointThree : 'I’m an excellent planner and love meeting new people!',

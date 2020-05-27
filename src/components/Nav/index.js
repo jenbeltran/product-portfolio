@@ -32,18 +32,13 @@ const Nav = () => {
 				<NavElement>
 					<StyleNavLinks>
 						<NavListItem>
-							<Link to="#my-story">
-								<Tab>My Story</Tab>
+							<Link to="/">
+								<Tab>About Me</Tab>
 							</Link>
 						</NavListItem>
 						<NavListItem>
-							<Link to="#projects">
+							<Link to="/projects">
 								<Tab>Projects</Tab>
-							</Link>
-						</NavListItem>
-						<NavListItem>
-							<Link to="#contact">
-								<Tab>Contact Me</Tab>
 							</Link>
 						</NavListItem>
 					</StyleNavLinks>

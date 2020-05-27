@@ -1,18 +1,13 @@
 const Title = [
 	{
-		pageName : 'my-story',
-		title    : 'Tech Teahouse',
-		sentence : 'Building an Inclusive and Diverse Community'
-	},
-	{
 		pageName : 'projects',
 		title    : 'Projects',
-		sentence : 'My Journey Growing This Communi-tea'
+		sentence : "A Selection of Things I've Worked On"
 	},
 	{
 		pageName : 'projectDetails',
 		title    : 'Project Details',
-		sentence : 'My Journey Growing This Communi-tea'
+		sentence : "A Selection of Things I've Worked On"
 	}
 ];
 
