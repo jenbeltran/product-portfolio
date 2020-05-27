@@ -8,19 +8,23 @@ import SEO from '../components/seo';
 //Navbar
 import Nav from '../components/Nav';
 
-//About Me Section
-import AboutMe from '../components/AboutMe';
+//Section Titles
+import SectionTitle from '../components/SectionTitle';
+
+//Projects
+import Projects from '../components/Projects';
 
 //Footer
 import Footer from '../components/Footer';
 
-const IndexPage = () => (
+const ProjectsPage = () => (
 	<PageWrapper>
-		<SEO title="About Me" />
+		<SEO title="Projects" />
 		<Nav />
-		<AboutMe />
+		<SectionTitle pageName="projects" />
+		<Projects />
 		<Footer />
 	</PageWrapper>
 );
 
-export default IndexPage;
+export default ProjectsPage;

@@ -4,53 +4,51 @@ import { colors } from '../../theme/colors';
 
 const { tablet, laptop } = breakpoints;
 
-const { indigo, black } = colors;
+const { indigo, pink } = colors;
 
 const CardSection = styled.section`
-@media (min-width: ${laptop}px) {
-	text-align: center
-	margin: auto;
-	padding: 5rem 10rem 5rem 10rem;
-	background-image: ${({ photo }) => `url('${photo}')`};
-	background-position: center center;
-	background-size: cover;
-	color: ${black};
-}
+	@media (min-width: ${laptop}px) {
+		position: relative;
+		display: flex;
+		margin: auto;
+		padding: 2rem 5rem 3rem 5rem;
+	}
 
-@media (max-width: ${tablet}px) {
-	text-align: center
-	margin: auto;
-	color: ${black};
-}
-	
-
-
-
+	@media (max-width: ${tablet}px) {
+		margin: auto;
+	}
 `;
 
 const CardImg = styled.img`
 	@media (min-width: ${laptop}px) {
-		width: 0;
+		height: 300px;
+		width: 475px;
+		position: relative;
+		display: flex;
+		margin: auto;
+		box-shadow: -10px 10px ${pink};
+		border-radius: 5%;
 	}
+
 	@media (max-width: ${tablet}px) {
+		height: 100%;
 		width: 100%;
+		margin: auto;
+		position: relative;
 	}
 `;
 
 const Wrapper = styled.div`
 	@media (min-width: ${laptop}px) {
-		background-color: white;
-		opacity: 0.95;
+		padding-left: 5rem;
+		padding-top: 1rem;
 		margin: auto;
-		padding: 2rem;
-		border-radius: 4px;
 	}
 
 	@media (max-width: ${tablet}px) {
-		background-color: white;
-		opacity: 0.95;
 		margin: auto;
 		padding: 2rem;
+		text-align: center;
 	}
 `;
 

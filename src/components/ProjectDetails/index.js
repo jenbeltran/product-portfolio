@@ -1,6 +1,5 @@
 import React from 'react';
 import { CardSection, Wrapper, CardImg, Headline, Subtitle } from './css';
-import { Link } from 'gatsby';
 import { Button } from '../../theme/typography';
 import Project from '../Projects/data';
 import { ProjectSubtitles } from '../Projects/data';
@@ -9,7 +8,7 @@ const CardImage = (props) => {
 	const matchPageName = (Project) => Project.pageName === props.pageName;
 	const projectData = Project.find(matchPageName);
 
-	const { pageName, photo, alt, headline, goal, action, measureOfSuccess } = projectData;
+	const { pageName, photo, alt, headline, goal, actionOne, actionTwo, measureOfSuccess, website } = projectData;
 
 	const { subtitleOne, subtitleTwo, subtitleThree } = ProjectSubtitles;
 
@@ -21,12 +20,17 @@ const CardImage = (props) => {
 				<Subtitle>{subtitleOne}</Subtitle>
 				<p>{goal}</p>
 				<Subtitle>{subtitleTwo}</Subtitle>
-				<p>{action}</p>
+				<ul>
+					<li>{actionOne}</li>
+					<li>{actionTwo}</li>
+				</ul>
+
 				<Subtitle>{subtitleThree}</Subtitle>
 				<p>{measureOfSuccess}</p>
-				<Link to={`/`}>
-					<Button>Return to Home Page</Button>
-				</Link>
+
+				<a href={website} target="_blank" rel="noopener noreferrer">
+					<Button>Visit My Project</Button>
+				</a>
 			</Wrapper>
 		</CardSection>
 	);
